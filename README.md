@@ -35,7 +35,7 @@ A take-home assignment for **Securely**, a web application firewall company. It 
 
 ### 🎾 [Padel Sniper](https://github.com/AlexandruCiornai/Padel-Sniper)
 
-<img src="https://raw.githubusercontent.com/AlexandruCiornai/Padel-Sniper/master/docs/booking.png" alt="Padel Sniper booking screen on a phone" width="260" align="right">
+<img src="assets/padel-sniper.png" alt="Padel Sniper booking screen on a phone" width="230" align="right">
 
 The courts in my town open for booking exactly 14 days ahead, and the evening slots are gone in seconds. So I built a bot.
 
