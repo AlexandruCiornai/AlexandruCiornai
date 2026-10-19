@@ -1,28 +1,80 @@
-# Hi, I'm Alex 👋
+<h1 align="center">Hi, I'm Alex 👋</h1>
 
-I'm a student at **TU Eindhoven**. I build web products, robots, and small tools that solve real problems.
-I co-founded two FIRST robotics teams, and I've competed in 3 editions of Cluj Hackathon.
+<p align="center">
+  <b>I build things that ship: web apps, tools and robots.</b><br>
+  Student at TU Eindhoven · from Cluj, Romania · based in Eindhoven, NL
+</p>
 
-- 🏆 **AlphaZ #11141**, Romania's second FRC team: Rookie All-Star at the **FIRST Championship 2026** (Houston), the first FRC Worlds award won by a Romanian team. I'm the driver, I wrote the driver-station dashboard, and I lead fundraising ($61K+).
-- 🤖 **Alphatronic (FTC)**, co-founder and captain: Inspire Award at Regional and National level, plus Design Award at the FTC World Championship. I raised $185K+ for the team over two seasons.
-- 💼 Internships at **AROBS** (web, embedded C on STM32, cybersecurity) and **Bosch** (electrical and pneumatics).
+<p align="center">
+  <a href="https://www.linkedin.com/in/alexandru-ciornai"><img src="https://img.shields.io/badge/LinkedIn-alexandru--ciornai-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:alex24ciornai@gmail.com"><img src="https://img.shields.io/badge/Email-alex24ciornai%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-## What I've built
+---
 
-| Project | What it is | Stack |
-|---|---|---|
-| **Protection Studio** | A prototype that helps WAF customers move from *monitoring* attacks to *blocking* them without blocking real customers. It has three "cockpits" (leadership, manager, engineer) that share one pure policy simulator, which replays ~1.2M requests in ~12 ms. Features include canary rollout with a circuit breaker, policy-as-code export to ModSecurity, and 73 unit tests. Built in 5 days. | React · TypeScript · Vite · Zustand · Vitest |
-| **[Padel Sniper](https://github.com/AlexandruCiornai/Padel-Sniper)** | A phone-friendly web app that books a padel court the second the slot opens. It schedules a headless browser to log in two minutes early and clicks at exactly hh:mm:00, then emails the result. | Python · Flask · Socket.IO · APScheduler · Playwright |
-| **[VIVODECOR calculators](https://github.com/vivodecor/calculatoare)** | Live price calculators (fence, cladding, wall panels, decking) for [vivodecor.ro](https://www.vivodecor.ro/calculator-gard-wpc), with realistic fence rendering from procedurally generated wood textures, prices synced from the store, and lead capture. They're served through jsDelivr with versioned releases and covered by a jsdom regression suite (88 configurations × desktop/mobile). | JavaScript · SVG/Canvas · Python build · Google Apps Script |
-| **Cluj Hackathon ×3** (2023–2025) | 48-hour AI startup prototypes, pitched to mentors and investors. The latest one is an AI tool that validates business ideas from market and competitor data and generates a business plan for loan applications. | Python · FastAPI/Flask · React |
-| **[AlphaZ robot code](https://github.com/grobeert/AlphaZ-Rebuilt)** | Our team's FRC 2026 robot code. My part: the custom driver-station dashboard, and driving the robot. | Java · WPILib |
+## 🙋 About me
 
-## Tools I use
+- I like problems with real users. I've built a security prototype for a company, live price calculators for an online store, and a bot that books my padel court.
+- I co-founded two FIRST robotics teams. At FRC we were the **first Romanian team ever to win an award at the World Championship**.
+- 🔨 **Right now:** getting ready for **Junction 2026** and maintaining the VIVODECOR calculators.
+- Outside code, I drive our FRC robot, mentor FIRST LEGO League kids and play padel (hence the bot).
 
-`TypeScript` `React` `Vite` `Python` `Flask` `FastAPI` `Java` `C/C++` `STM32` `Three.js` `Playwright` `Git` `Linux`
+---
 
-## Elsewhere
+## 🚀 Featured projects
 
-- Email: alex24ciornai@gmail.com
+### 🛡️ Protection Studio · [live demo ↗](https://legendary-strudel-73ee63.netlify.app/)
 
-🇷🇴 Romanian (native) · 🇬🇧 English (fluent) · based in Eindhoven, NL
+<a href="https://legendary-strudel-73ee63.netlify.app/"><img src="assets/protection-studio.png" alt="Protection Studio: the Trade-off Studio cockpit, where you drag two cut-offs on the visitor-score distribution and see bots let through versus customers blocked" width="100%"></a>
+
+A take-home assignment for **Securely**, a web application firewall company. It helps their customers move from *watching* attacks to *blocking* them without blocking real customers.
+- **Three cockpits for three audiences** (leadership, manager, engineer), all driven by one pure policy simulator. It replays ~1.2M requests in ~12 ms, so dragging a cut-off updates the impact live.
+- Canary rollout with a circuit breaker, replay against last week's traffic, and per-rule amendments instead of disabling a rule.
+- Policy as code: every version exports as JSON and ModSecurity rules. 73 unit tests.
+- **Built in 5 days.** React · TypeScript · Vite · Zustand · Vitest
+
+### 🎾 [Padel Sniper](https://github.com/AlexandruCiornai/Padel-Sniper)
+
+<img src="https://raw.githubusercontent.com/AlexandruCiornai/Padel-Sniper/master/docs/booking.png" alt="Padel Sniper booking screen on a phone" width="260" align="right">
+
+The courts in my town open for booking exactly 14 days ahead, and the evening slots are gone in seconds. So I built a bot.
+
+- You pick a date and hour on your phone.
+- A headless browser logs in 2 minutes early, waits on the calendar page, and clicks the slot at exactly `hh:mm:00`.
+- Live status reaches the phone over Socket.IO, and the result arrives by email.
+- The timing is DST-safe, and access is PIN-protected with lockout.
+
+Python · Flask · Playwright · APScheduler · Socket.IO
+
+<br clear="right">
+
+### 🧮 [VIVODECOR calculators](https://github.com/vivodecor/calculatoare) · [live ↗](https://www.vivodecor.ro/calculator-gard-wpc)
+
+<a href="https://www.vivodecor.ro/calculator-gard-wpc"><img src="assets/vivodecor-calculator.png" alt="VIVODECOR fence calculator: a to-scale drawing of the fence next to color, size and spacing options" width="100%"></a>
+
+Price and quantity calculators for a Romanian store selling WPC fencing, cladding and decking. They run live on the store.
+- They draw the fence to scale, with wood textures generated pixel by pixel and matched to product photos.
+- Prices sync from the store, and customers can request a quote, send their configuration by WhatsApp or download a PDF.
+- The store platform strips `<script>` tags, so the engines are served from GitHub via jsDelivr with versioned releases.
+- Releases are checked by a jsdom regression suite. For the fence calculator, that means 88 configurations on desktop and mobile.
+
+JavaScript · SVG/Canvas · Python build · Google Apps Script
+
+---
+
+## 🏆 Hackathons & robotics
+
+- **Cluj Hackathon ×3 (2023, 2024, 2025).** Each time, a 48-hour AI startup prototype built from scratch with two friends and pitched to mentors and investors. The latest is an AI tool that validates business ideas from market and competitor data and writes the business plan for a loan application.
+- **AlphaZ #11141 (FRC), co-founder.** I'm the driver, I wrote our custom driver-station dashboard, and I raised $61K+. Rookie All-Star at the **FIRST Championship 2026** in Houston, plus Rookie All-Star (Ankara) and the Quality Award (Başkent).
+- **Alphatronic (FTC), co-founder and captain.** Inspire Award at Regional and National level, and the Design Award at the FTC World Championship. I raised $185K+ over two seasons.
+- **Internships:** AROBS (web, embedded C on STM32, cybersecurity) and Bosch (electrical and pneumatics).
+
+---
+
+## 🧰 Tech I use
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,react,vite,python,flask,java,cpp,threejs,git,linux,netlify" alt="TypeScript, React, Vite, Python, Flask, Java, C++, Three.js, Git, Linux, Netlify">
+</p>
+
+Also Playwright, Zustand, Vitest, jsdom, APScheduler, STM32 (Keil, CubeMX) and WPILib.
