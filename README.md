@@ -1,8 +1,9 @@
-<h1 align="center">Hi, I'm Alex 👋</h1>
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Terminal: $ whoami, then ALEX CIORNAI in block letters. CS student @ TU/e, I build things that ship: web apps, tools and robots. FRC World Championship award, 3× hackathons, getting ready for Junction 2026.">
+</p>
 
 <p align="center">
-  <b>I build things that ship: web apps, tools and robots.</b><br>
-  CS student at TU Eindhoven · from Cluj, Romania · based in Eindhoven, NL
+  Hi, I'm Alex 👋 · from Cluj, Romania · based in Eindhoven, NL
 </p>
 
 <p align="center">
