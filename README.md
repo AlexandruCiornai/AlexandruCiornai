@@ -24,7 +24,7 @@
 
 ## 🚀 Featured projects
 
-### 🛡️ Protection Studio · [live demo ↗](https://legendary-strudel-73ee63.netlify.app/)
+### 🛡️ [Protection Studio](https://github.com/AlexandruCiornai/protection-studio) · [live demo ↗](https://legendary-strudel-73ee63.netlify.app/)
 
 <a href="https://legendary-strudel-73ee63.netlify.app/"><img src="assets/protection-studio.png" alt="Protection Studio: the Trade-off Studio cockpit, where you drag two cut-offs on the visitor-score distribution and see bots let through versus customers blocked" width="100%"></a>
 
