@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>I build things that ship: web apps, tools and robots.</b><br>
-  Student at TU Eindhoven · from Cluj, Romania · based in Eindhoven, NL
+  CS student at TU Eindhoven · from Cluj, Romania · based in Eindhoven, NL
 </p>
 
 <p align="center">
