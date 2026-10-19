@@ -17,7 +17,7 @@
 
 - I like problems with real users. I've built a security prototype for a company, live price calculators for an online store, and a bot that books my padel court.
 - I co-founded two FIRST robotics teams. At FRC we were the **first Romanian team ever to win an award at the World Championship**.
-- 🔨 **Right now:** getting ready for **Junction 2026** and maintaining the VIVODECOR calculators.
+- 🔨 **Right now:** getting ready for **Junction 2026** (aiming for the Hardware Lab) and maintaining the VIVODECOR calculators.
 - Outside code, I drive our FRC robot, mentor FIRST LEGO League kids and play padel (hence the bot).
 
 ---
@@ -63,12 +63,22 @@ JavaScript · SVG/Canvas · Python build · Google Apps Script
 
 ---
 
-## 🏆 Hackathons & robotics
+## 🔧 Hardware & robotics
+
+I'm happiest when the code moves something. At Junction I want to build in the **Hardware Lab**, where AI meets real hardware.
+
+- **AlphaZ #11141 (FRC), co-founder.** I'm the driver, I wrote our custom driver-station dashboard, and I raised $61K+. Rookie All-Star at the **FIRST Championship 2026** in Houston, plus Rookie All-Star (Ankara) and the Quality Award (Başkent).
+- **Alphatronic (FTC), co-founder and captain.** Inspire Award at Regional and National level, the Design Award at the FTC World Championship, and $185K+ raised over two seasons.
+- **Embedded (AROBS internship).** Firmware in C for STM32 boards in Keil µVision and STM32CubeMX: integrating sensors and configuring peripherals.
+- **Electronics (Bosch internship).** I designed and soldered a protection circuit that keeps 220 V away from the Bosch Learning Hub equipment. I also built a pneumatic football mini-game that the Hub still uses.
+- **Mentoring.** I mentor the next Alphatronic team and FIRST LEGO League kids.
+
+---
+
+## 🏆 Hackathons
 
 - **Cluj Hackathon ×3 (2023, 2024, 2025).** Each time, a 48-hour AI startup prototype built from scratch with two friends and pitched to mentors and investors. The latest is an AI tool that validates business ideas from market and competitor data and writes the business plan for a loan application.
-- **AlphaZ #11141 (FRC), co-founder.** I'm the driver, I wrote our custom driver-station dashboard, and I raised $61K+. Rookie All-Star at the **FIRST Championship 2026** in Houston, plus Rookie All-Star (Ankara) and the Quality Award (Başkent).
-- **Alphatronic (FTC), co-founder and captain.** Inspire Award at Regional and National level, and the Design Award at the FTC World Championship. I raised $185K+ over two seasons.
-- **Internships:** AROBS (web, embedded C on STM32, cybersecurity) and Bosch (electrical and pneumatics).
+- **Next: Junction 2026** in Espoo. 🛠️
 
 ---
 
