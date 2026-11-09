@@ -15,7 +15,7 @@
 
 ## 🙋 About me
 
-- I like problems with real users. I've built a security prototype for a company, live price calculators for an online store, and a bot that books my padel court.
+- I like problems with real users. I've built live price calculators for an online store, and a bot that books my padel court.
 - I co-founded two FIRST robotics teams. At FRC we were the **first Romanian team ever to win an award at the World Championship**.
 - 🔨 **Right now:** getting ready for **Junction 2026** (aiming for the Hardware Lab) and maintaining the VIVODECOR calculators.
 - Outside code, I drive our FRC robot, mentor FIRST LEGO League kids and play padel (hence the bot).
@@ -23,16 +23,6 @@
 ---
 
 ## 🚀 Featured projects
-
-### 🛡️ [Protection Studio](https://github.com/AlexandruCiornai/protection-studio) · [live demo ↗](https://legendary-strudel-73ee63.netlify.app/)
-
-<a href="https://legendary-strudel-73ee63.netlify.app/"><img src="assets/protection-studio.png" alt="Protection Studio: the Trade-off Studio cockpit, where you drag two cut-offs on the visitor-score distribution and see bots let through versus customers blocked" width="100%"></a>
-
-A take-home assignment for **Securely**, a web application firewall company. It helps their customers move from *watching* attacks to *blocking* them without blocking real customers.
-- **Three cockpits for three audiences** (leadership, manager, engineer), all driven by one pure policy simulator. It replays ~1.2M requests in ~12 ms, so dragging a cut-off updates the impact live.
-- Canary rollout with a circuit breaker, replay against last week's traffic, and per-rule amendments instead of disabling a rule.
-- Policy as code: every version exports as JSON and ModSecurity rules. 73 unit tests.
-- **Built in 5 days.** React · TypeScript · Vite · Zustand · Vitest
 
 ### 🎾 [Padel Sniper](https://github.com/AlexandruCiornai/Padel-Sniper)
 
